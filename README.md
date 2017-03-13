@@ -17,7 +17,8 @@
 #### 1. 发送文本格式消息：
 
 ```javascript
-var robot = require('./index.js')('xxxxxxxxxx');
+// xxxxxxxxxx 为机器人webhook地址中access_token的值
+var robot = require('dingtalk-robot')('xxxxxxxxxx');
 
 // send text format message
 robot.send({
@@ -44,7 +45,8 @@ robot.send({
 #### 2. 发送链接格式消息：
 
 ```javascript
-var robot = require('./index.js')('xxxxxxxxxx');
+// xxxxxxxxxx 为机器人webhook地址中access_token的值
+var robot = require('dingtalk-robot')('xxxxxxxxxx');
 
 // send link format message
 robot.send({
@@ -67,7 +69,8 @@ robot.send({
 #### 3. 发送Markdown格式消息：
 
 ```javascript
-var robot = require('./index.js')('xxxxxxxxxx');
+// xxxxxxxxxx 为机器人webhook地址中access_token的值
+var robot = require('dingtalk-robot')('xxxxxxxxxx');
 
 // send markdown format message
 robot.send({
