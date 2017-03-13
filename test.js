@@ -1,18 +1,3 @@
-# dingtalk-robot
-
-[钉钉自定义机器人](https://open-doc.dingtalk.com/docs/doc.htm?spm=a219a.7629140.0.0.c0UBCT&treeId=257&articleId=105735&docType=1) Node.js API.
-
-## 安装
-
-```bash
-~$ [sudo] npm install dingtalk-robot [-g] [--save]
-```
-
-## 使用
-
-1. 发送文本格式消息：
-
-```javascript
 var robot = require('./index.js')('xxxxxxxxxx');
 
 // send text format message
@@ -35,12 +20,6 @@ robot.send({
     }
     console.log(data);
 });
-```
-
-2. 发送链接格式消息：
-
-```javascript
-var robot = require('./index.js')('xxxxxxxxxx');
 
 // send link format message
 robot.send({
@@ -58,12 +37,6 @@ robot.send({
     }
     console.log(data);
 });
-```
-
-3. 发送Markdown格式消息：
-
-```javascript
-var robot = require('./index.js')('xxxxxxxxxx');
 
 // send markdown format message
 robot.send({
@@ -82,28 +55,4 @@ robot.send({
     }
     console.log(data);
 });
-```
 
-## Licence
-
-MIT License
-
-Copyright (c) 2017 Fineen
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
