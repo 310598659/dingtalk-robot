@@ -10,7 +10,7 @@
 
 ## 使用
 
-1. 发送文本格式消息：
+#### 1. 发送文本格式消息：
 
 ```javascript
 var robot = require('./index.js')('xxxxxxxxxx');
@@ -37,7 +37,7 @@ robot.send({
 });
 ```
 
-2. 发送链接格式消息：
+#### 2. 发送链接格式消息：
 
 ```javascript
 var robot = require('./index.js')('xxxxxxxxxx');
@@ -60,7 +60,7 @@ robot.send({
 });
 ```
 
-3. 发送Markdown格式消息：
+#### 3. 发送Markdown格式消息：
 
 ```javascript
 var robot = require('./index.js')('xxxxxxxxxx');
